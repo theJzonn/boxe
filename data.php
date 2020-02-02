@@ -1,6 +1,6 @@
 <?php
 
-  // require_once 'model/fighterModel.class.php';
+  require_once 'model/fighterModel.class.php';
 
   $fighters = [
 
