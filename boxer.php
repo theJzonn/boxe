@@ -4,13 +4,16 @@
 
   //require_once("dbconfig.php");
 
-  $query = $pdo->prepare('
+  /**$query = $pdo->prepare('
 		SELECT *
 		FROM boxer
 	');
 
 	$query->execute();
 	$boxerList = $query->fetchAll();
+  **/
+
+  $boxerList = $fighters;
 
   $template = 'boxer';
 
