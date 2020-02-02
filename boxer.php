@@ -1,8 +1,8 @@
 <?php
 
-  // require_once 'data.php';
+  require_once 'data.php';
 
-  require_once("dbconfig.php");
+  //require_once("dbconfig.php");
 
   $query = $pdo->prepare('
 		SELECT *
