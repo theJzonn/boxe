@@ -1,0 +1,18 @@
+<div class="title">
+  <h1>Boxer</h1>
+</div>
+<main>
+  <?php foreach ($boxerList as $boxer): ?>
+    <article class="fighter">
+      <a href="fighter.php?id=<?= $boxer['id']; ?>">
+        <img src="<?= $boxer['photo']; ?>" alt="fighter">
+        <div class="description">
+          <div class="flex">
+            <h2><?=  $boxer['firstName'] .'&emsp;' .$boxer['lastName']; ?></h2>
+            <h2>Records: <?= $boxer['recap']; ?></h2>
+          </div>
+        </div>
+      </a>
+    </article>
+  <?php endforeach; ?>
+</main>

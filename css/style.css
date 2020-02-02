@@ -1,0 +1,316 @@
+/*<style>*/
+
+/** https://www.embroiderypanda.com/image/cache/data/A-A9979/Little-Baby-Chick-School-Graduation-Applique-Machine-Embroidery-Digitized-Design-Pattern-700x700.jpg **/
+
+/*
+==================
+General
+==================
+*/
+
+html{
+	font-size: 100%;/* 16px garantis */
+	font-family: sans-serif;
+	line-height: 1.8;
+	letter-spacing: 2px;
+}
+
+*{
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+	/*background-color: #ecebe8;*/
+	font-family: Helvetica,arial,sans-serif;
+}
+
+img{
+	max-width:  100%;
+	max-height: 100%;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*
+==================
+Header
+==================
+*/
+
+nav{
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+nav ul{
+	width: 70%;
+	margin: 0 auto;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+#home h1{
+	font-size: 5rem;
+}
+
+#home header p{
+	font-size: 3rem;
+}
+
+header{
+
+}
+
+.inner-header{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 10%;
+	right: 10px;
+	text-align: right;
+	color: #fff;
+}
+
+.inner-header ul{
+	padding: 20px 0;
+}
+
+.inner-header ul li{
+	border-right: 10px solid #fff;
+}
+
+.inner-header ul li:hover{
+	border-right: 10px solid #000;
+}
+
+.inner-header a{
+	font-size: 2rem;
+	padding: 10px;
+	text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.inner-header ul li:hover a{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home{
+	margin-top: 0;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+#home img{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+#home .inner-header{
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	right: 10%;
+	text-align: right;
+	color: #fff;
+}
+#home p{
+	font-size: 3rem;
+}
+
+/*
+==================
+Main
+==================
+*/
+
+.title h1{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 80px;
+	padding: 120px 0;
+	background: linear-gradient(to right,#731de4 0,#05a2d4 100%);
+	text-align: center;
+	color: #fff;
+	letter-spacing: 40px;
+	font-weight: bold;
+	font-size: 4rem;
+	text-transform: uppercase;
+}
+
+main{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+section{
+	width: 100%;
+	margin: 50px auto;
+	border-radius: 8px;
+	background-color: #ecebe8;
+	overflow: hidden;
+	text-align: center;
+	font-size: 25px;
+	/*line-height: 25px;*/
+	color: #545454;
+	line-height: 35px;
+}
+
+section img{
+	width: 100%;
+	height: 500px;
+}
+
+section h2{
+	padding: 16px 0px 15px 50px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+}
+
+section p{
+	text-align: justify;
+	padding: 20px;
+}
+
+button{
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-size: 2rem;
+}
+
+button:hover{
+	color: #000;
+	cursor: pointer;
+}
+
+.none{
+	display: none;
+}
+
+span{
+	font-size: 25px;
+  color: #545454;
+	font-weight: bold;
+}
+
+.fighter{
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	margin: 50px 0;
+}
+
+.fighter img{
+	width: 100%;
+	height: 100%;
+}
+
+.description{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.flex{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: : auto;
+}
+
+.records{
+	color: #545454;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+#fighter{
+	margin-top: 100px;
+}
+#fighter p{
+	padding: 10px 20%;
+}
+
+.fight{
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px 70px;
+	background-color: #ecebe8;
+}
+
+.fight h2{
+	margin-bottom: 20px;
+	font-size: 1.2rem;
+	width: 100%;
+}
+
+.fight img,
+.fight-info{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.fight img{
+	width: 40%;
+}
+
+.fight-info{
+	width: 50%;
+	margin-left: 7%;
+	margin-top: 10px;
+}
+
+.fight p{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+/*
+==================
+Footer
+==================
+*/
+
+footer{
+	padding: 10px;
+	text-align: center;
+	padding: 50px 0;
+	/*color: #fff;*/
+	/*background-color: #000;*/
+}
+
+footer a{
+	color: #000;
+	padding: 10px;
+}
