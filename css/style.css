@@ -17,14 +17,15 @@ html{
 
 *{
 	margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	padding: 0;
+	box-sizing: border-box;
 
 }
 
 body{
 	/*background-color: #ecebe8;*/
 	font-family: Helvetica,arial,sans-serif;
+	min-width: 900px;
 }
 
 img{
@@ -75,10 +76,6 @@ nav ul li{
 
 #home header p{
 	font-size: 3rem;
-}
-
-header{
-
 }
 
 .inner-header{
@@ -246,7 +243,7 @@ span{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: : auto;
+	padding: auto;
 }
 
 .records{
